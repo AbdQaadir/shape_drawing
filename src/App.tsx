@@ -91,17 +91,7 @@ const App:React.FC  = () => {
       <div id="shape-area">
         {!shapes?.length && <p className="error">Your Drawing is Empty</p>}
        
-        {shapes.map((shape:any) => {
-          // eslint-disable-next-line
-            if(shape.type === "circle"){
-              return <Circle {...shape} />
-            }else if(shape.type === "rectangle"){
-              return <Rectangle {...shape} />
-            }else if(shape.type === "line"){
-              return <Line {...shape} />
-            }
-            
-        })}
+        {shapes.map((shape:any) => shape.type === "circle" ?  <Circle {...shape} /> : shape.type === "rectangle" ? <Rectangle {...shape} /> : shape.type === "line"? <Line {...shape} /> : <></>)}
           
       </div>
       <div id="button-container">
