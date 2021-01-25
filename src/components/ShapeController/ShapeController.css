@@ -1,0 +1,47 @@
+.shape-controller {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+}
+.shape-title {
+  width: 10%;
+}
+.shape-controller .input-container {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+}
+.shape-controller .input-container div {
+  margin: 10px 10px 10px 0;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 40%;
+}
+.shape-controller .input-container input {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+}
+
+.shape-controller .input-container label {
+  width: 25%;
+  display: inline-block;
+  font-weight: 300;
+}
+.delete-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: red;
+  font-size: 17px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

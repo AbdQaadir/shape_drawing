@@ -1,0 +1,22 @@
+#container {
+  width: 90vw;
+  margin: 30px auto;
+}
+#shape-area {
+  background: lightgray;
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.error {
+  font-size: 15px;
+}
+
+#button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}

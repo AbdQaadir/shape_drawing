@@ -1,0 +1,9 @@
+.add-button {
+  background: blue;
+  color: #fff;
+  padding: 11px 36px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
